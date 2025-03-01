@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 20px 25px;
+    text-align: center;
+}
+button{
+    all: unset;
+    margin: 30px 10px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid #7f8181;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+}
+sub{
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+#start:hover{
+    background-color: green;
+    border: 1px solid green;
+}
+#stop:hover{
+    background-color: red;
+    border: 1px solid red;
+}
+#reset:hover{
+    background-color: orange;
+    border: 1px solid orange;
+}
