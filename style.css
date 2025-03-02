@@ -3,7 +3,6 @@
     src: url('./font/RusselSquareOpti.otf') format('TrueType');
 }
 
-
 body{
     display: flex;
     height: 100vh;
