@@ -12,6 +12,8 @@ body{
 }
 
 .container{
+    width: 500px;
+    padding: 25px;
     text-align: center;
     background-color: #ddebd4;
     border-radius: 50%;
@@ -30,11 +32,19 @@ button i{
     font-size: 20px;
 }
 .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 10px ;
     font-size: 65px;
     font-family: 'russel';
 }
 .col{
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
 }
 sub{
     font-size: 15px;
