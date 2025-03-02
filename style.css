@@ -8,6 +8,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-color: #A4C392;
 }
 
 .container{
@@ -15,8 +16,8 @@ body{
     height: 500px;
     padding: 50px;
     text-align: center;
-    background-color: #C8D8E7;
-    border: 1px solid #C8D8E7;
+    background-color: #ddebd4;
+    border: 1px solid #ddebd4;
     border-radius: 50%;
 }
 button{
