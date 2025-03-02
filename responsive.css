@@ -13,8 +13,8 @@
     padding: 60px;
 }
 
-[class ^= 'col-']{
-    padding: 10px;
+[class ^= 'col']{
+    margin: 5px;
 }
 .row{
     display: flex;
